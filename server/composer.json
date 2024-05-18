@@ -1,0 +1,19 @@
+{
+    "name": "crud/crud",
+    "description": "crud operation with vue",
+    "autoload": {
+        "psr-4": {
+            "Crud\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asraful",
+            "email": "asraful808088@gmail.com"
+        }
+    ],
+    "require": {
+        "fruitcake/laravel-cors": "^3.0",
+        "laravel/sanctum": "^3.3"
+    }
+}

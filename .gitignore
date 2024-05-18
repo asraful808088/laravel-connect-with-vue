@@ -1,0 +1,23 @@
+# Ignore vendor directories one level deep
+/*/vendor/
+
+# Ignore node_modules directories one level deep
+/*/node_modules/
+
+# You can also add other common ignores, e.g.,
+
+# Ignore the .env file (for environment-specific settings)
+.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
